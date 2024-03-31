@@ -41,7 +41,7 @@ EBAY_CERT_ID_PROD=YourProdCertID
 EBAY_AUTH_TOKEN_PROD=YourProdAuthToken
 
 # IMGBB (for image hosting)
-IMGBB_API_KEY=7988edd902675615df72c878543a35a0
+IMGBB_API_KEY=YourImgbbAPIKey
 ```
 
 ### Preparing Images
