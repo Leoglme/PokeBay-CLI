@@ -151,11 +151,18 @@ export default class EbayService {
 
     public static async findCardSpecifics(card: Card): Promise<EbayLocalizedAspect[] | null> {
         const keywords: string = `${card.name} ${card.number} ${card.set} ${card.language}`;
-        const backupKeywords: string = `${card.set} ${card.number} `;
+        const secondKeywords: string = (`${card.set} ${card.number}`).toLowerCase();
+        const latestKeywords: string = (`${card.name} ${card.set}`).toLowerCase();
         let items: EbayItem[] | undefined = await this.findSimilarItems(keywords);
 
         if (!items || items.length === 0) {
-            items = await this.findSimilarItems(backupKeywords);
+            items = await this.findSimilarItems(secondKeywords);
+            console.log(`Using second backup keywords ${secondKeywords}, found ${items?.length || 0} items`);
+
+            if (!items || items.length === 0) {
+                items = await this.findSimilarItems(latestKeywords);
+                console.log(`Using latest backup keywords ${latestKeywords}, found ${items?.length || 0} items`);
+            }
         }
 
 
