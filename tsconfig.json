@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    // ou "ES2022", "ESNext", selon les besoins
+    "module": "ESNext",
+    // ou "ES2022", "Node16", "NodeNext", selon ton environnement d'exécution
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "#services/*": [
+        "./services/*"
+      ],
+      "#xml/*": [
+        "./xml/*"
+      ],
+      "#types/*": [
+        "./types/*"
+      ],
+      "#constants/*": [
+        "./constants/*"
+      ]
+    }
+  }
+}

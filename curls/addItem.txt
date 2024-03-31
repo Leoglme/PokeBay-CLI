@@ -1,0 +1,57 @@
+curl --location 'https://api.ebay.com/ws/api.dll' \
+--header 'Content-Type: text/xml' \
+--header 'X-EBAY-API-CALL-NAME: AddItem' \
+--header 'X-EBAY-API-SITEID: 71' \
+--header 'X-EBAY-API-COMPATIBILITY-LEVEL: 967' \
+--header 'X-EBAY-API-DEV-NAME: 242b6f20-54c8-48fd-****1e1d51' \
+--header 'X-EBAY-API-APP-NAME: LoGuilla-DiboPoke-PRD-f*****6-981a3104' \
+--header 'X-EBAY-API-CERT-NAME: PRD-2ad5e0e693ff-bf***a-9fbd' \
+--data '<?xml version="1.0" encoding="utf-8"?>
+<AddItemRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+    <RequesterCredentials>
+        <eBayAuthToken>v^1.1#i^1#p^3#r^1*********QTc4N****BfMSNFXjI2MA==</eBayAuthToken>
+    </RequesterCredentials>
+    <ErrorLanguage>en_US</ErrorLanguage>
+    <WarningLevel>High</WarningLevel>
+    <Item>
+        <Title>Carte Pokémon Rare - Pikachu</Title>
+        <Description>Description détaillée de la carte.</Description>
+        <PrimaryCategory>
+            <CategoryID>183454</CategoryID>
+        </PrimaryCategory>
+        <StartPrice>1.0</StartPrice>
+        <ConditionID>4000</ConditionID>
+        <ConditionDescriptors>
+            <ConditionDescriptor>
+                <Name>40001</Name>
+                <Value>400010</Value>
+            </ConditionDescriptor>
+        </ConditionDescriptors>
+        <Country>FR</Country>
+        <Currency>EUR</Currency>
+        <DispatchTimeMax>3</DispatchTimeMax>
+        <ListingDuration>Days_7</ListingDuration>
+        <ListingType>Chinese</ListingType>
+        <PictureDetails>
+            <PictureURL>https://i.ibb.co/3MPtwx4/IMG-3200.jpg</PictureURL>
+        </PictureDetails>
+        <PostalCode>35000</PostalCode>
+        <Quantity>1</Quantity>
+        <ShippingDetails>
+            <ShippingType>Flat</ShippingType>
+            <ShippingServiceOptions>
+                <ShippingServicePriority>1</ShippingServicePriority>
+                <ShippingServiceCost currencyID="EUR">1.0</ShippingServiceCost>
+                <ShippingService>FR_PostOfficeLetterFollowed</ShippingService>
+            </ShippingServiceOptions>
+        </ShippingDetails>
+        <ItemSpecifics>
+            <NameValueList>
+                <Name>Jeu</Name>
+                <Value>Pokémon</Value>
+            </NameValueList>
+        </ItemSpecifics>
+        <Site>France</Site>
+    </Item>
+</AddItemRequest>
+'

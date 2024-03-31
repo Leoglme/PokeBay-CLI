@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AddItemResponse xmlns="urn:ebay:apis:eBLBaseComponents">
+    <Timestamp>2024-03-31T00:18:50.906Z</Timestamp>
+    <Ack>Warning</Ack>
+    <Errors>
+        <ShortMessage>Some item specifics were renamed as per eBay recommendations.</ShortMessage>
+        <LongMessage>Some item specifics were renamed as per eBay recommendations.</LongMessage>
+        <ErrorCode>21920277</ErrorCode>
+        <SeverityCode>Warning</SeverityCode>
+        <ErrorClassification>RequestError</ErrorClassification>
+    </Errors>
+    <Errors>
+        <ShortMessage>Il se peut que les fonds provenant de vos ventes ne soient pas disponibles et qu&apos;ils
+            apparaissent comme étant bloqués pendant un certain temps.
+        </ShortMessage>
+        <LongMessage>Il se peut que les fonds provenant de vos ventes ne soient pas disponibles et qu&apos;ils
+            apparaissent comme étant bloqués pendant un certain temps. En savoir
+            plus:https://www.ebay.fr/help/selling/getting-paid/getting-paid-items-youve-sold/pending-payments?id=4816
+        </LongMessage>
+        <ErrorCode>21917236</ErrorCode>
+        <SeverityCode>Warning</SeverityCode>
+        <ErrorParameters ParamID="0">
+            <Value>Il se peut que les fonds provenant de vos ventes ne soient pas disponibles et qu&apos;ils
+                apparaissent comme étant bloqués pendant un certain temps.
+            </Value>
+        </ErrorParameters>
+        <ErrorParameters ParamID="1">
+            <Value>Il se peut que les fonds provenant de vos ventes ne soient pas disponibles et qu&apos;ils
+                apparaissent comme étant bloqués pendant un certain temps. En savoir
+                plus:https://www.ebay.fr/help/selling/getting-paid/getting-paid-items-youve-sold/pending-payments?id=4816
+            </Value>
+        </ErrorParameters>
+        <ErrorParameters ParamID="2">
+            <Value>PayPalHold</Value>
+        </ErrorParameters>
+        <ErrorParameters ParamID="3">
+            <Value>
+                https://www.ebay.fr/help/selling/getting-paid/getting-paid-items-youve-sold/pending-payments?id=4816
+            </Value>
+        </ErrorParameters>
+        <ErrorClassification>RequestError</ErrorClassification>
+    </Errors>
+    <Errors>
+        <ShortMessage>Your previously selected shipping service has been replaced with another shipping service.
+        </ShortMessage>
+        <LongMessage>Your previously selected shipping service Lettre prioritaire has been replaced with another
+            shipping service Lettre Verte.
+        </LongMessage>
+        <ErrorCode>21916215</ErrorCode>
+        <SeverityCode>Warning</SeverityCode>
+        <ErrorParameters ParamID="0">
+            <Value>Lettre prioritaire</Value>
+        </ErrorParameters>
+        <ErrorParameters ParamID="1">
+            <Value>Lettre Verte</Value>
+        </ErrorParameters>
+        <ErrorClassification>RequestError</ErrorClassification>
+    </Errors>
+    <Version>1353</Version>
+    <Build>E1353_UNI_API5_19110890_R1</Build>
+    <ItemID>355591810843</ItemID>
+    <StartTime>2024-03-31T00:18:50.182Z</StartTime>
+    <EndTime>2024-04-29T00:18:50.182Z</EndTime>
+    <Fees>
+        <Fee>
+            <Name>AuctionLengthFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>BoldFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>BuyItNowFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>CategoryFeaturedFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>FeaturedFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>GalleryPlusFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>FeaturedGalleryFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>FixedPriceDurationFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>GalleryFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>GiftIconFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>HighLightFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>InsertionFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+            <PromotionalDiscount currencyID="EUR">0.35</PromotionalDiscount>
+        </Fee>
+        <Fee>
+            <Name>InternationalInsertionFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>ListingDesignerFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>ListingFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+            <PromotionalDiscount currencyID="EUR">0.35</PromotionalDiscount>
+        </Fee>
+        <Fee>
+            <Name>PhotoDisplayFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>PhotoFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>ReserveFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>SchedulingFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>SubtitleFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>BorderFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>ProPackBundleFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>BasicUpgradePackBundleFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>ValuePackBundleFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>PrivateListingFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>ProPackPlusBundleFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+        <Fee>
+            <Name>MotorsGermanySearchFee</Name>
+            <Fee currencyID="EUR">0.0</Fee>
+        </Fee>
+    </Fees>
+    <DiscountReason>SpecialOffer</DiscountReason>
+</AddItemResponse>

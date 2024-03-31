@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AddItemRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+    <RequesterCredentials>
+        <eBayAuthToken>v^1.1#i^1#f^0#p^3#r^1#I^3#t^Ul4xMF8yOjg4Nzg3QUJBNDFDMUU2MTg0QzNGQTM1NUY2OENGNzM0XzBfMSNFXjI2MA==</eBayAuthToken>
+    </RequesterCredentials>
+    <ErrorLanguage>en_US</ErrorLanguage>
+    <WarningLevel>High</WarningLevel>
+    <Item>
+        <Site>France</Site>
+        <PictureDetails>
+            <PictureURL>https://i.ibb.co/9szqdMb/IMG-2956.jpg</PictureURL>
+            <PictureURL>https://i.ibb.co/wL5B8QW/IMG-2957.jpg</PictureURL>
+        </PictureDetails>
+        <Title>Flâmigator / Skeledirge ex 032/190 - SV4a Shiny Treasure Carte Pokémon Japonaise</Title>
+        <PrimaryCategory>
+            <CategoryID>183454</CategoryID>
+        </PrimaryCategory>
+        <ConditionID>4000</ConditionID>
+        <ConditionDescriptors>
+            <ConditionDescriptor>
+                <Name>40001</Name>
+                <Value>400010</Value>
+            </ConditionDescriptor>
+        </ConditionDescriptors>
+        <ItemSpecifics>
+            <NameValueList>
+                <Name>Jeu</Name>
+                <Value>Pokémon JCC</Value>
+            </NameValueList>
+            <NameValueList>
+                <Name>Set</Name>
+                <Value>Shiny Treasure ex</Value>
+            </NameValueList>
+            <NameValueList>
+                <Name>Personnage</Name>
+                <Value>Flâmigator</Value>
+            </NameValueList>
+            <NameValueList>
+                <Name>Fabricant</Name>
+                <Value>Nintendo</Value>
+            </NameValueList>
+            <NameValueList>
+                <Name>Attribut</Name>
+                <Value>Feu</Value>
+            </NameValueList>
+            <NameValueList>
+                <Name>Finition</Name>
+                <Value>Holo</Value>
+            </NameValueList>
+            <NameValueList>
+                <Name>Nom de la carte</Name>
+                <Value>Flâmigator / Skeledirge</Value>
+            </NameValueList>
+            <NameValueList>
+                <Name>Numéro de carte</Name>
+                <Value>32/190</Value>
+            </NameValueList>
+            <NameValueList>
+                <Name>Stade d'évolution</Name>
+                <Value>Niveau 2</Value>
+            </NameValueList>
+            <NameValueList>
+                <Name>Tranche d'âge</Name>
+                <Value>6+</Value>
+            </NameValueList>
+            <NameValueList>
+                <Name>Langue</Name>
+                <Value>Japonais</Value>
+            </NameValueList>
+            <NameValueList>
+                <Name>Année de fabrication</Name>
+                <Value>2023</Value>
+            </NameValueList>
+            <NameValueList>
+                <Name>Taille de la carte</Name>
+                <Value>Japonais</Value>
+            </NameValueList>
+            <NameValueList>
+                <Name>Matériau</Name>
+                <Value>Papier cartonné</Value>
+            </NameValueList>
+            <NameValueList>
+                <Name>Pays de fabrication</Name>
+                <Value>Japon</Value>
+            </NameValueList>
+            <NameValueList>
+                <Name>Points de vue (PV)</Name>
+                <Value>340</Value>
+            </NameValueList>
+        </ItemSpecifics>
+        <Description>
+            Flâmigator / Skeledirge ex 032/190 - SV4a Shiny Treasure Carte Pokémon Japonaise
+            Pour plus d'informations, n'hésitez pas à me contacter sur eBay ou sur mon adresse mail : dibopokemon@gmail.com
+        </Description>
+        <ListingDuration>Days_7</ListingDuration>
+        <ListingType>Chinese</ListingType>
+        <StartPrice>1.0</StartPrice>
+        <BuyItNowPrice>2.0</BuyItNowPrice>
+        <Country>FR</Country>
+        <Currency>EUR</Currency>
+        <DispatchTimeMax>5</DispatchTimeMax>
+        <BestOfferDetails>
+            <BestOfferEnabled>true</BestOfferEnabled>
+        </BestOfferDetails>
+        <ListingDetails>
+            <MinimumBestOfferPrice>5.0</MinimumBestOfferPrice>
+        </ListingDetails>
+        <Quantity>1</Quantity>
+        <ShippingDetails>
+            <ShippingType>Flat</ShippingType>
+            <ShippingServiceOptions>
+                <ShippingServicePriority>1</ShippingServicePriority>
+                <ShippingServiceCost currencyID="EUR">1.80</ShippingServiceCost>
+                <ShippingService>FR_PostOfficeLetter</ShippingService>
+            </ShippingServiceOptions>
+            <ShippingServiceOptions>
+                <ShippingServicePriority>2</ShippingServicePriority>
+                <ShippingServiceCost currencyID="EUR">2.35</ShippingServiceCost>
+                <ShippingService>FR_PostOfficeLetterFollowed</ShippingService>
+            </ShippingServiceOptions>
+        </ShippingDetails>
+        <PostalCode>35000</PostalCode>
+        <ReturnPolicy>
+            <ReturnsAcceptedOption>ReturnsNotAccepted</ReturnsAcceptedOption>
+        </ReturnPolicy>
+    </Item>
+</AddItemRequest>
