@@ -1,15 +1,67 @@
 [
   {
-    "name": "Cofagrigus ex RR",
-    "number": "031/066",
-    "set": "sv4K Ancient Roar",
-    "language": "Japonais",
+    "name": "Miaouss",
+    "number": "106/146",
+    "set": "Diamant &amp; Perle : Eveil des Légendes",
+    "language": "Français",
     "images": [
-      "IMG_2978.jpg",
-      "IMG_2979.jpg"
+      "IMG_3006.jpg",
+      "IMG_3007.jpg"
     ],
     "isGraded": false,
-    "condition": "Near Mint or Better",
+    "condition": "Lightly Played (Excellent)",
+    "startPrice": 1
+  },
+  {
+    "name": "Zarbi J - DP6",
+    "number": "76/146",
+    "set": "Diamant &amp; Perle : Eveil des Légendes",
+    "language": "Français",
+    "images": [
+      "IMG_3008.jpg",
+      "IMG_3009.jpg"
+    ],
+    "isGraded": false,
+    "condition": "Lightly Played (Excellent)",
+    "startPrice": 1
+  },
+  {
+    "name": "Coxy - DP6",
+    "number": "104/146",
+    "set": "Diamant &amp; Perle : Eveil des Légendes",
+    "language": "Français",
+    "images": [
+      "IMG_3010.jpg",
+      "IMG_3011.jpg"
+    ],
+    "isGraded": false,
+    "condition": "Lightly Played (Excellent)",
+    "startPrice": 1
+  },
+  {
+    "name": "Terhal",
+    "number": "84/146",
+    "set": "Diamant &amp; Perle : Eveil des Légendes",
+    "language": "Français",
+    "images": [
+      "IMG_3012.jpg",
+      "IMG_3013.jpg"
+    ],
+    "isGraded": false,
+    "condition": "Lightly Played (Excellent)",
+    "startPrice": 1
+  },
+  {
+    "name": "Yanma - DP6",
+    "number": "128/146",
+    "set": "Diamant & Perle : Eveil des Légendes",
+    "language": "Français",
+    "images": [
+      "IMG_3016.jpg",
+      "IMG_3017.jpg"
+    ],
+    "isGraded": false,
+    "condition": "Lightly Played (Excellent)",
     "startPrice": 1
   }
 ]

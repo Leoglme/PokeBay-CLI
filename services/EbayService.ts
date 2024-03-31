@@ -150,18 +150,23 @@ export default class EbayService {
     }
 
     public static async findCardSpecifics(card: Card): Promise<EbayLocalizedAspect[] | null> {
-        const keywords: string = `${card.name} ${card.number} ${card.set} ${card.language}`;
-        const secondKeywords: string = (`${card.set} ${card.number}`).toLowerCase();
-        const latestKeywords: string = (`${card.name} ${card.set}`).toLowerCase();
-        let items: EbayItem[] | undefined = await this.findSimilarItems(keywords);
+        const keywords: string[] = [
+            `${card.name} ${card.number} ${card.set} ${card.language}`,
+            (`${card.set} ${card.number}`).toLowerCase(),
+            (`${card.name} ${card.set}`).toLowerCase(),
+            `pokemon ${card.number}`
+        ];
 
-        if (!items || items.length === 0) {
-            items = await this.findSimilarItems(secondKeywords);
-            console.log(`Using second backup keywords ${secondKeywords}, found ${items?.length || 0} items`);
 
-            if (!items || items.length === 0) {
-                items = await this.findSimilarItems(latestKeywords);
-                console.log(`Using latest backup keywords ${latestKeywords}, found ${items?.length || 0} items`);
+        let items: EbayItem[] | undefined;
+
+        for (const keyword of keywords) {
+            items = await this.findSimilarItems(keyword);
+
+            console.log(`Using keywords "${keyword}", found ${items?.length || 0} items`);
+
+            if (items && items.length > 0) {
+                break;
             }
         }
 
@@ -173,15 +178,29 @@ export default class EbayService {
 
         // Limit the search to the first 3 listings or fewer
         const limit: number = Math.min(items.length, 1);
-        const detailsList: EbayItemDetailResponse[] = [];
 
         await this.setOAuthToken();
 
+        const detailsList: EbayItemDetailResponse[] = [];
+        let foundGameSpecific: boolean = false;
+
+
         for (let i = 0; i < limit; i++) {
-            const itemId: string = items[i].itemId[0];
+            const item: EbayItem = items[i];
+            const itemId: string = item.itemId[0];
             const details: EbayItemDetailResponse | undefined = await this.findItemDetails(itemId);
+
             if (details) {
                 detailsList.push(details);
+
+                // Check if 'Game' is among the aspects and mark as found
+                const hasGameSpecifics: boolean = details.localizedAspects.some(aspect => aspect.name === 'Jeu');
+                foundGameSpecific = foundGameSpecific || hasGameSpecifics;
+
+                // If 'Game' is found and the limit is reached or exceeded, stop the loop
+                if (foundGameSpecific && i >= (limit - 1)) {
+                    break;
+                }
             }
         }
 

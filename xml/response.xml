@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <AddItemResponse xmlns="urn:ebay:apis:eBLBaseComponents">
-    <Timestamp>2024-03-31T04:39:38.845Z</Timestamp>
+    <Timestamp>2024-03-31T21:58:44.481Z</Timestamp>
     <Ack>Failure</Ack>
     <Errors>
         <ShortMessage>Il se peut que les fonds provenant de vos ventes ne soient pas disponibles et qu&apos;ils
@@ -33,21 +34,12 @@
         <ErrorClassification>RequestError</ErrorClassification>
     </Errors>
     <Errors>
-        <ShortMessage>The item specific Jeu is missing.</ShortMessage>
-        <LongMessage>The item specific Jeu is missing. Add Jeu to this listing, enter a valid value, and then try
-            again.
-        </LongMessage>
-        <ErrorCode>21919303</ErrorCode>
+        <ShortMessage>Title too long.</ShortMessage>
+        <LongMessage>Listing titles are limited to &quot;80&quot; characters.</LongMessage>
+        <ErrorCode>70</ErrorCode>
         <SeverityCode>Error</SeverityCode>
         <ErrorParameters ParamID="0">
-            <Value>The item specific Jeu is missing.</Value>
-        </ErrorParameters>
-        <ErrorParameters ParamID="1">
-            <Value>The item specific Jeu is missing. Add Jeu to this listing, enter a valid value, and then try again.
-            </Value>
-        </ErrorParameters>
-        <ErrorParameters ParamID="2">
-            <Value>Jeu</Value>
+            <Value>80</Value>
         </ErrorParameters>
         <ErrorClassification>RequestError</ErrorClassification>
     </Errors>

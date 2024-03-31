@@ -2,53 +2,119 @@ https://chat.openai.com/share/96b60da5-b13a-4c0c-88f7-5fc4c515f591
 
 
 première carte
-images: IMG_2950.jpg, IMG_2951.jpg
-nom: Alakazam ex RR
-numéro: 075/190
-set sv4a Shiny Treasure
+images: IMG_2982.jpg, IMG_2983.jpg
+nom: EXAGIDE / AEGISLASH Ex
+numéro: 045/066
+set sv4m
 langue: Japonais
 en condition Near Mint,
 non gradé,
 je veux la vendre en enchère à partir de 1€
+
 
 
 deuxième carte
-images: IMG_2954.jpg, IMG_2955.jpg
-nom: Meowscarada ex RR
-numéro: 014/190
-set sv4a Shiny Treasure
+images: IMG_2984.jpg, IMG_2985.jpg
+nom: Maushold Ex RR
+numéro: 057/066
+set sv4m Futur Flash
 langue: Japonais
 en condition Near Mint,
 non gradé,
 je veux la vendre en enchère à partir de 1€
 
-troisième carte
-images: IMG_2962.jpg, IMG_2963.jpg
-nom: Koraidon ex RR
-numéro: 114/190
-set sv4a Shiny Treasure
-langue: Japonais
-en condition Near Mint,
+
+troisème carte
+images: IMG_2991.jpg, IMG_2998.jpg
+nom: MANGRIFF Rare
+numéro: 23/95
+set Bloc EX Team Aqua VS Team Magma (2005)
+langue: Français
+en condition Moderately Played (Very Good),
 non gradé,
 je veux la vendre en enchère à partir de 1€
 
 
 quatrième carte
-images: IMG_2964.jpg, IMG_2965.jpg
-nom: Chien-Pao ex RR
-numéro: 054/190
-set sv4a Shiny Treasure
-langue: Japonais
-en condition Near Mint,
+images: IMG_2999.jpg, IMG_3001.jpg
+nom: Remoraid
+numéro: 90/127
+set Platine Base (2009)
+langue: Français
+en condition Lightly Played (Excellent),
 non gradé,
 je veux la vendre en enchère à partir de 1€
 
+
 cinquième carte
-images: IMG_2966.jpg, IMG_2967.jpg
-nom: Ting-Lu ex RR
-numéro: 113/190
-set sv4a Shiny Treasure
-langue: Japonais
-en condition Near Mint,
+images: IMG_3002.jpg, IMG_3003.jpg
+nom: Tauros
+numéro: 90/127
+set Platine Base (2009)
+langue: Français
+en condition Lightly Played (Excellent),
+non gradé,
+je veux la vendre en enchère à partir de 1€
+
+
+
+
+
+
+
+////////////////
+
+
+première carte
+images: IMG_3006.jpg, IMG_3007.jpg
+nom: Miaouss
+numéro: 106/146
+set Diamant & Perle : Eveil des Légendes
+langue: Français
+en condition Lightly Played (Excellent),
+non gradé,
+je veux la vendre en enchère à partir de 1€
+
+
+
+deuxième carte
+images: IMG_3008.jpg, IMG_3009.jpg
+nom: Zarbi J - DP6
+numéro: 76/146
+set Diamant & Perle : Eveil des Légendes
+langue: Français
+en condition Lightly Played (Excellent),
+non gradé,
+je veux la vendre en enchère à partir de 1€
+
+
+troisième carte
+images: IMG_3010.jpg, IMG_3011.jpg
+nom: Coxy - DP6
+numéro: 104/146
+set Diamant & Perle : Eveil des Légendes
+langue: Français
+en condition Lightly Played (Excellent),
+non gradé,
+je veux la vendre en enchère à partir de 1€
+
+quatrième carte
+images: IMG_3012.jpg, IMG_3013.jpg
+nom: Terhal
+numéro: 84/146
+set Diamant & Perle : Eveil des Légendes
+langue: Français
+en condition Lightly Played (Excellent),
+non gradé,
+je veux la vendre en enchère à partir de 1€
+
+
+cinquième carte
+images: IMG_3016.jpg, IMG_3017.jpg
+nom: Yanma - DP6
+numéro: 128/146
+set Diamant & Perle : Eveil des Légendes
+langue: Français
+en condition Lightly Played (Excellent),
 non gradé,
 je veux la vendre en enchère à partir de 1€

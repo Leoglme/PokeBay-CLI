@@ -126,13 +126,33 @@ export default class EbayXmlBuilderService {
         return listingDetailsXML;
     }
 
+    public static replaceSpecialXmlCharacters(input: string): string {
+        return input
+            .replace(/&/g, "&amp;")
+    }
+
+    public static formattedCard(card: Card): Card {
+        // Limit name to 80 characters
+        let formattedName = card.name.slice(0, 80);
+        // Replaces special characters for 'name' and 'set'
+        formattedName = this.replaceSpecialXmlCharacters(formattedName);
+        const formattedSet = this.replaceSpecialXmlCharacters(card.set);
+
+        return {
+            ...card,
+            name: formattedName,
+            set: formattedSet,
+        };
+    }
+
 
     public static async buildAddItemXML(card: Card): Promise<string> {
+        const formattedCard: Card = this.formattedCard(card);
         const requesterCredentialsXML: string = this.buildRequesterCredentialsXML();
-        const pictureDetailsXML: string = await this.buildPictureDetailsXML(card);
-        const titleXML: string = this.buildTitleXML(card);
-        const conditionXML: string = this.buildConditionXML(card);
-        const cardSpecifics: EbayLocalizedAspect[] | null = await EbayService.findCardSpecifics(card);
+        const pictureDetailsXML: string = await this.buildPictureDetailsXML(formattedCard);
+        const titleXML: string = this.buildTitleXML(formattedCard);
+        const conditionXML: string = this.buildConditionXML(formattedCard);
+        const cardSpecifics: EbayLocalizedAspect[] | null = await EbayService.findCardSpecifics(formattedCard);
 
         let itemSpecificsXML: string = '';
 
@@ -140,8 +160,8 @@ export default class EbayXmlBuilderService {
             itemSpecificsXML = this.buildItemSpecificsXML(cardSpecifics);
         }
 
-        const descriptionXML: string = this.buildDescriptionXML(card);
-        const listingDetailsXML: string = this.buildListingDetailsXML(card);
+        const descriptionXML: string = this.buildDescriptionXML(formattedCard);
+        const listingDetailsXML: string = this.buildListingDetailsXML(formattedCard);
 
         const additionalXML = `
 <Country>FR</Country>
