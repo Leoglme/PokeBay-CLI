@@ -1,7 +1,6 @@
 #  PokeBay-CLI
 
-` PokeBay-CLI` is a TypeScript CLI application designed to streamline the process of listing various Pokémon items on eBay, including cards, graded cards, boosters, and displays. By leveraging a JSON configuration and supporting image uploads, it simplifies bulk listing operations.
-
+Typescript cli tool to simplify and automate the listing of Pokémon items on eBay, such as cards, graded cards, boosters, displays and so on.
 ## Contents
 - [Installation](#installation)
 - [Configuration](#configuration)
@@ -69,6 +68,27 @@ Create an `items.json` file at the project root with the details of the items yo
 ]
 ```
 
+Here is the type of item in the `items.json` file:
+
+```typescript
+type Card = {
+  name: string;
+  number: string;
+  set: string;
+  language: string;
+  images: string[];
+  isGraded: boolean;
+  grade?: number;
+  gradeCompany?: string;
+  startPrice?: number;
+  price?: number;
+  condition?: EbayConditions;
+  quantity?: number;
+  minimumBestOfferAmount?: number;
+}
+```
+
+
 ## Usage
 
 ### Building items.json with ChatGPT
@@ -87,4 +107,6 @@ Ensure you have completed the `.env` setup and prepared `items.json` and images 
 
 ---
 
-` PokeBay-CLI` offers a convenient way to manage eBay listings for Pokémon collectors and sellers, combining the power of automation with the flexibility of user-defined listings. Enjoy streamlining your eBay listings with ` PokeBay-CLI`!
+### Developed with ❤️ by Léo Guillaume (Leoglme) 
+License: MIT
+[dibodev](https://dibodev.com)
