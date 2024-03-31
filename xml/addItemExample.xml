@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AddItemRequest xmlns="urn:ebay:apis:eBLBaseComponents">
     <RequesterCredentials>
-        <eBayAuthToken>v^1.1#i^1#f^0#p^3#r^1#I^3#t^Ul4xMF8yOjg4Nzg3QUJBNDFDMUU2MTg0QzNGQTM1NUY2OENGNzM0XzBfMSNFXjI2MA==</eBayAuthToken>
+        <eBayAuthToken>v^1.1#i^1#f^0#p^3#r^1*******************************NFXjI2MA==</eBayAuthToken>
     </RequesterCredentials>
     <ErrorLanguage>en_US</ErrorLanguage>
     <WarningLevel>High</WarningLevel>
