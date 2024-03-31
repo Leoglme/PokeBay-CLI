@@ -25,7 +25,7 @@ npm install
 
 ### .env Variables
 
-Create a `.env` file based on `.env.example` provided, and fill in your eBay and Imgur API credentials:
+Create a `.env` file based on `.env.example` provided, and fill in your [eBay](https://developer.ebay.com/develop/apis) and [imgbb API](https://api.imgbb.com/) credentials:
 
 ```plaintext
 # eBay Sandbox (for testing)
@@ -40,9 +40,8 @@ EBAY_DEV_ID_PROD=YourProdDevID
 EBAY_CERT_ID_PROD=YourProdCertID
 EBAY_AUTH_TOKEN_PROD=YourProdAuthToken
 
-# Imgur (for image hosting)
-IMGUR_CLIENT_ID=YourImgurClientID
-IMGUR_CLIENT_SECRET=YourImgurClientSecret
+# IMGBB (for image hosting)
+IMGBB_API_KEY=7988edd902675615df72c878543a35a0
 ```
 
 ### Preparing Images

@@ -3,38 +3,43 @@ import * as fs from 'fs';
 import FormData from 'form-data';
 import fetch from 'node-fetch';
 import OsService from "#services/OsService";
+import {configDotenv} from "dotenv";
 
-interface ImgurResponse {
+configDotenv()
+
+
+interface ImgBBResponse {
     data: {
-        link: string;
+        url: string;
     };
     success: boolean;
     status: number;
 }
 
 export default class ImageUploadService {
-    private static IMGUR_API_URL: string = 'https://api.imgur.com/3/image';
+    private static IMGBB_API_URL: string = 'https://api.imgbb.com/1/upload';
 
     public static async uploadImage(imageName: string): Promise<string> {
         const imagePath: string = path.join(OsService.getDirname(), '../images', imageName);
         const formData: FormData = new FormData();
         formData.append('image', fs.createReadStream(imagePath));
 
-        const response = await fetch(this.IMGUR_API_URL, {
+        const response = await fetch(`${this.IMGBB_API_URL}?key=${process.env.IMGBB_API_KEY}`, {
             method: 'POST',
-            headers: {
-                Authorization: `Client-ID ${process.env.IMGUR_CLIENT_ID}`,
-                ...formData.getHeaders(),
-            },
             body: formData,
         });
 
-        const data: ImgurResponse = await response.json() as ImgurResponse;
-        return data.data.link;
+        const data: ImgBBResponse = await response.json() as ImgBBResponse;
+
+        if (data.success) {
+            return data.data.url
+        } else {
+            throw new Error(`Failed to upload image. Status: ${data.status}`);
+        }
     }
 
     public static async uploadMultipleImages(imageNames: string[]): Promise<string[]> {
-        const uploadPromises = imageNames.map(imageName => this.uploadImage(imageName));
+        const uploadPromises: Promise<string>[] = imageNames.map((imageName: string) => this.uploadImage(imageName));
         return Promise.all(uploadPromises);
     }
 }
