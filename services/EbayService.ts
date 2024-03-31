@@ -151,7 +151,13 @@ export default class EbayService {
 
     public static async findCardSpecifics(card: Card): Promise<EbayLocalizedAspect[] | null> {
         const keywords: string = `${card.name} ${card.number} ${card.set} ${card.language}`;
-        const items: EbayItem[] | undefined = await this.findSimilarItems(keywords);
+        const backupKeywords: string = `${card.set} ${card.number} `;
+        let items: EbayItem[] | undefined = await this.findSimilarItems(keywords);
+
+        if (!items || items.length === 0) {
+            items = await this.findSimilarItems(backupKeywords);
+        }
+
 
         if (!items || items.length === 0) {
             console.error('Failed to find similar items');

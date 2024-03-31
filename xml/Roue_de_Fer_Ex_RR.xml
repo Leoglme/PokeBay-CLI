@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AddItemRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+    <RequesterCredentials>
+<eBayAuthToken>v^1.1#i^1#f^0#p^3#r^1#I^3#t^Ul4xMF8yOjg4Nzg3QUJBNDFDMUU2MTg0QzNGQTM1NUY2OENGNzM0XzBfMSNFXjI2MA==</eBayAuthToken>
+</RequesterCredentials>
+
+    <ErrorLanguage>en_US</ErrorLanguage>
+    <WarningLevel>High</WarningLevel>
+    <Item>
+        <Site>France</Site>
+        <PictureDetails>
+<PictureURL>https://i.ibb.co/vkrQjB2/IMG-2968.jpg</PictureURL>
+<PictureURL>https://i.ibb.co/LvDsc28/IMG-2969.jpg</PictureURL>
+</PictureDetails>
+
+        <Title>Roue-de-Fer Ex RR 132/190 - sv4a Shiny Treasure Carte Pokémon Japonais</Title>
+        <PrimaryCategory>
+            <CategoryID>183454</CategoryID>
+        </PrimaryCategory>
+        <ConditionID>4000</ConditionID>
+<ConditionDescriptors>
+<ConditionDescriptor>
+<Name>40001</Name>
+<Value>400010</Value>
+</ConditionDescriptor>
+</ConditionDescriptors>
+
+        <ItemSpecifics>
+    <NameValueList>
+        <Name>Type de la carte</Name>
+        <Value>Pokémon</Value>
+    </NameValueList>
+    <NameValueList>
+        <Name>Spécialité</Name>
+        <Value>EX</Value>
+    </NameValueList>
+    <NameValueList>
+        <Name>Numéro de carte</Name>
+        <Value>132/190</Value>
+    </NameValueList>
+    <NameValueList>
+        <Name>Langue</Name>
+        <Value>Japonais</Value>
+    </NameValueList>
+    <NameValueList>
+        <Name>Jeu</Name>
+        <Value>Pokémon JCC</Value>
+    </NameValueList>
+</ItemSpecifics>
+
+        <Description>
+<![CDATA[
+Roue-de-Fer Ex RR 132/190 - sv4a Shiny Treasure Carte Pokémon Japonais
+Pour plus d'informations, n'hésitez pas à me contacter sur eBay ou sur mon adresse mail : dibopokemon@gmail.com
+]]>
+</Description>
+
+        <ListingDuration>Days_7</ListingDuration>
+<ListingType>Chinese</ListingType>
+<StartPrice currencyID="EUR">1</StartPrice>
+<Quantity>1</Quantity>
+<BestOfferDetails>
+<BestOfferEnabled>true</BestOfferEnabled>
+</BestOfferDetails>
+
+        
+<Country>FR</Country>
+<Currency>EUR</Currency>
+<DispatchTimeMax>5</DispatchTimeMax>
+<PostalCode>35000</PostalCode>
+<ReturnPolicy>
+    <ReturnsAcceptedOption>ReturnsNotAccepted</ReturnsAcceptedOption>
+</ReturnPolicy>
+<ShippingDetails>
+    <ShippingType>Flat</ShippingType>
+    <ShippingServiceOptions>
+        <ShippingServicePriority>1</ShippingServicePriority>
+        <ShippingServiceCost currencyID="EUR">1.80</ShippingServiceCost>
+        <ShippingService>FR_PostOfficeLetter</ShippingService>
+    </ShippingServiceOptions>
+    <ShippingServiceOptions>
+        <ShippingServicePriority>2</ShippingServicePriority>
+        <ShippingServiceCost currencyID="EUR">2.35</ShippingServiceCost>
+        <ShippingService>FR_PostOfficeLetterFollowed</ShippingService>
+    </ShippingServiceOptions>
+</ShippingDetails>
+
+    </Item>
+</AddItemRequest>

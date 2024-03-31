@@ -1,16 +1,15 @@
 [
   {
-    "name": "Hisuian Samurott Vstar",
-    "number": "230/172",
-    "set": "s12a Vstar",
-    "language": "Japonaise",
+    "name": "Koraidon ex RR",
+    "number": "114/190",
+    "set": "sv4a Shiny Treasure",
+    "language": "Japonais",
     "images": [
-      "IMG_3417.jpg",
-      "IMG_3418.jpg",
-      "IMG_3419.jpg"
+      "IMG_2962.jpg",
+      "IMG_2963.jpg"
     ],
     "isGraded": false,
     "condition": "Near Mint or Better",
-    "price": 8
+    "startPrice": 1
   }
 ]
