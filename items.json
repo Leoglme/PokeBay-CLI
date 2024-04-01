@@ -1,80 +1,392 @@
 [
-  {
-    "images": [
-      "IMG_3036.jpg",
-      "IMG_3037.jpg"
-    ],
-    "name": "LEUPHORIE",
-    "number": "6/147",
-    "set": "AQUAPOLIS Wizards",
-    "language": "Français",
-    "condition": "Heavily Played (Poor)",
-    "isGraded": false,
-    "startPrice": 1
-  },
-  {
-    "images": [
-      "IMG_3038.jpg",
-      "IMG_3039.jpg"
-    ],
-    "name": "ENERGIE ELECTRIQUE",
-    "number": "100/102",
-    "set": "Set de Base Wizards",
-    "language": "Français",
-    "condition": "Heavily Played (Poor)",
-    "isGraded": false,
-    "startPrice": 1
-  },
-  {
-    "images": [
-      "IMG_3040.jpg",
-      "IMG_3041.jpg"
-    ],
-    "name": "Goupix",
-    "number": "68/102",
-    "set": "Set de Base Wizards",
-    "language": "Français",
-    "condition": "Lightly Played (Excellent)",
-    "isGraded": false,
-    "startPrice": 1
-  },
-  {
-    "images": [
-      "IMG_3042.jpg",
-      "IMG_3043.jpg"
-    ],
-    "name": "Rattata",
-    "number": "61/102",
-    "set": "Set de Base Wizards",
-    "language": "Français",
-    "condition": "Lightly Played (Excellent)",
-    "isGraded": false,
-    "startPrice": 1
-  },
-  {
-    "images": [
-      "IMG_3044.jpg",
-      "IMG_3045.jpg"
-    ],
-    "name": "Pikachu",
-    "number": "58/102",
-    "set": "Set de Base Wizards",
-    "language": "Français",
-    "condition": "Heavily Played (Poor)",
-    "isGraded": false,
-    "startPrice": 1
-  },
-  {
-    "images": [
-      "IMG_3046.jpg",
-      "IMG_3047.jpg"
-    ],
-    "name": "Roucool",
-    "number": "57/102",
-    "set": "Set de Base Wizards",
-    "language": "Français",
-    "condition": "Heavily Played (Poor)",
-    "isGraded": false,
-    "startPrice": 1
-  }
+    {
+        "name": "Flobio",
+        "number": "36/106",
+        "set": "EX Emeraude",
+        "language": "Français",
+        "images": [
+            "IMG_3142.jpg",
+            "IMG_3143.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Chuchmur",
+        "number": "82/101",
+        "set": "EX Légendes Oubliées",
+        "language": "Français",
+        "images": [
+            "IMG_3144.jpg",
+            "IMG_3145.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Spheal",
+        "number": "74/101",
+        "set": "EX Légendes Oubliées",
+        "language": "English",
+        "images": [
+            "IMG_3146.jpg",
+            "IMG_3147.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "meditikka",
+        "number": "65/101",
+        "set": "EX Légendes Oubliées",
+        "language": "Français",
+        "images": [
+            "IMG_3148.jpg",
+            "IMG_3149.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Doduo",
+        "number": "60/101",
+        "set": "Impulsion TURBO",
+        "language": "Français",
+        "images": [
+            "IMG_3150.jpg",
+            "IMG_3151.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Spinda",
+        "number": "48/101",
+        "set": "Set de Base",
+        "language": "Français",
+        "images": [
+            "IMG_3152.jpg",
+            "IMG_3153.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Excavateur de fossiles",
+        "number": "111/123",
+        "set": "Set De Base",
+        "language": "Français",
+        "images": [
+            "IMG_3154.jpg",
+            "IMG_3155.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Keunotor",
+        "number": "73/123",
+        "set": "Trésors Mystérieux",
+        "language": "Français",
+        "images": [
+            "IMG_3156.jpg",
+            "IMG_3157.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Ymphect",
+        "number": "17/123",
+        "set": "Trésors Mystérieux",
+        "language": "Français",
+        "images": [
+            "IMG_3158.jpg",
+            "IMG_3159.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Mustébouée",
+        "number": "72/130",
+        "set": "Diamant & Perle Base",
+        "language": "Français",
+        "images": [
+            "IMG_3160.jpg",
+            "IMG_3161.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Ceriflor",
+        "number": "45/130",
+        "set": "Diamant & Perle",
+        "language": "Français",
+        "images": [
+            "IMG_3162.jpg",
+            "IMG_3163.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Blindalys",
+        "number": "44/130",
+        "set": "Diamant & Perle",
+        "language": "Français",
+        "images": [
+            "IMG_3164.jpg",
+            "IMG_3165.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Chaglam",
+        "number": "83/130",
+        "set": "Calendrier De L’Avent 2009",
+        "language": "Français",
+        "images": [
+            "IMG_3166.jpg",
+            "IMG_3167.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Chenipotte",
+        "number": "104/130",
+        "set": "Diamant & Perle Base",
+        "language": "Français",
+        "images": [
+            "IMG_3168.jpg",
+            "IMG_3169.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Germignon",
+        "number": "51/115",
+        "set": "EX Forces Cachées",
+        "language": "Français",
+        "images": [
+            "IMG_3170.jpg",
+            "IMG_3171.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Mélofée",
+        "number": "53/115",
+        "set": "EX Forces Cachées",
+        "language": "Français",
+        "images": [
+            "IMG_3172.jpg",
+            "IMG_3173.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Lainergie",
+        "number": "56/115",
+        "set": "EX Forces Cachées",
+        "language": "Français",
+        "images": [
+            "IMG_3174.jpg",
+            "IMG_3175.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Axoloto",
+        "number": "79/115",
+        "set": "EX Forces Cachées",
+        "language": "Français",
+        "images": [
+            "IMG_3176.jpg",
+            "IMG_3177.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Limagma",
+        "number": "73/115",
+        "set": "EX Forces Cachées",
+        "language": "Français",
+        "images": [
+            "IMG_3178.jpg",
+            "IMG_3179.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Porygon",
+        "number": "69/115",
+        "set": "EX Forces Cachées",
+        "language": "Français",
+        "images": [
+            "IMG_3180.jpg",
+            "IMG_3181.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Héricendre",
+        "number": "45/101",
+        "set": "EX Dragon",
+        "language": "Français",
+        "images": [
+            "IMG_3184.jpg",
+            "IMG_3185.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Abo",
+        "number": "47/101",
+        "set": "EX Dragon",
+        "language": "Français",
+        "images": [
+            "IMG_3186.jpg",
+            "IMG_3187.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Wattouat",
+        "number": "54/101",
+        "set": "EX Dragon",
+        "language": "Français",
+        "images": [
+            "IMG_3188.jpg",
+            "IMG_3189.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Méthode d'entraînement du Prof. Orme",
+        "number": "79/101",
+        "set": "EX Delta Species",
+        "language": "Français",
+        "images": [
+            "IMG_3192.jpg",
+            "IMG_3193.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Recherches du professeur Chen",
+        "number": "149/165",
+        "set": "Expedition",
+        "language": "Français",
+        "images": [
+            "IMG_3194.jpg",
+            "IMG_3195.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Piafabec",
+        "number": "81/112",
+        "set": "EX Rouge Feu & Vert Feuille",
+        "language": "Français",
+        "images": [
+            "IMG_3196.jpg",
+            "IMG_3197.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Roucool",
+        "number": "73/112",
+        "set": "EX Rouge Feu & Vert Feuille",
+        "language": "Français",
+        "images": [
+            "IMG_3198.jpg",
+            "IMG_3199.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Salamèche",
+        "number": "58/112",
+        "set": "EX Rouge Feu & Vert Feuille",
+        "language": "Français",
+        "images": [
+            "IMG_3200.jpg",
+            "IMG_3201.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Herbe sauveuse",
+        "number": "93/112",
+        "set": "Ex Rouge Feu Vert Feuille",
+        "language": "Français",
+        "images": [
+            "IMG_3202.jpg",
+            "IMG_3203.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    },
+    {
+        "name": "Super Ball",
+        "number": "92/112",
+        "set": "EX Rouge Feu Vert Feuille",
+        "language": "Français",
+        "images": [
+            "IMG_3204.jpg",
+            "IMG_3205.jpg"
+        ],
+        "isGraded": false,
+        "startPrice": 1,
+        "condition": "Heavily Played (Poor)"
+    }
 ]

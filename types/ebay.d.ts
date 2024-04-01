@@ -108,7 +108,7 @@ type EbayItemDetailResponse = {
     shipToLocations: EbayShipToLocations;
     returnTerms: EbayReturnTerms;
     taxes: EbayTax[];
-    localizedAspects: EbayLocalizedAspect[];
+    localizedAspects: EbayLocalizedAspect[] | undefined;
     topRatedBuyingExperience: boolean;
     buyingOptions: string[];
     itemWebUrl: string;

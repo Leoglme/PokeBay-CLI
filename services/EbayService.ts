@@ -67,7 +67,7 @@ export default class EbayService {
         });
 
         const textResponse: string = await response.text();
-        const hasError: boolean = textResponse.includes('Errors');
+        const hasError: boolean = !textResponse.includes('Fees');
 
         if(hasError) {
             console.error("Failed to add item to Ebay", textResponse);
@@ -163,10 +163,6 @@ export default class EbayService {
             items = await this.findSimilarItems(keyword);
 
             console.log(`Using keywords "${keyword}", found ${items?.length || 0} items`);
-
-            if (items && items.length > 0) {
-                break;
-            }
         }
 
 
@@ -184,12 +180,12 @@ export default class EbayService {
         let foundGameSpecific: boolean = false;
 
 
-        for (let i = 0; i < limit; i++) {
+        for (let i = 0; i < items.length; i++) {
             const item: EbayItem = items[i];
             const itemId: string = item.itemId[0];
             const details: EbayItemDetailResponse | undefined = await this.findItemDetails(itemId);
 
-            if (details) {
+            if (details && details.localizedAspects) {
                 detailsList.push(details);
 
                 // Check if 'Game' is among the aspects and mark as found
@@ -213,13 +209,15 @@ export default class EbayService {
         const aspectNames: Set<string> = new Set();
 
         detailsList.forEach(detail => {
-            detail.localizedAspects.forEach(aspect => {
-                const aspectNameWithoutSpaces: string = aspect.name.replace(/\s/g, '');
-                if (!aspectNames.has(aspectNameWithoutSpaces)) {
-                    allLocalizedAspects.push(aspect);
-                    aspectNames.add(aspectNameWithoutSpaces);
-                }
-            });
+            if(detail.localizedAspects) {
+                detail.localizedAspects.forEach(aspect => {
+                    const aspectNameWithoutSpaces: string = aspect.name.replace(/\s/g, '');
+                    if (!aspectNames.has(aspectNameWithoutSpaces)) {
+                        allLocalizedAspects.push(aspect);
+                        aspectNames.add(aspectNameWithoutSpaces);
+                    }
+                });
+            }
         });
 
         return allLocalizedAspects;

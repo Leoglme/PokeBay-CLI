@@ -1,19 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <AddItemResponse xmlns="urn:ebay:apis:eBLBaseComponents">
-    <Timestamp>2024-04-01T00:16:54.935Z</Timestamp>
+    <Timestamp>2024-04-01T20:41:58.927Z</Timestamp>
     <Ack>Failure</Ack>
     <Errors>
-        <ShortMessage>Erreur d&apos;analyse XML.</ShortMessage>
-        <LongMessage>Texte d&apos;erreur XML : &quot;; nested exception is:
-            org.xml.sax.SAXParseException; lineNumber: 35; columnNumber: 30; The entity name must immediately follow the
-            &apos;&amp;&apos; in the entity reference.&quot;.
+        <ShortMessage>Il se peut que les fonds provenant de vos ventes ne soient pas disponibles et qu&apos;ils
+            apparaissent comme étant bloqués pendant un certain temps.
+        </ShortMessage>
+        <LongMessage>Il se peut que les fonds provenant de vos ventes ne soient pas disponibles et qu&apos;ils
+            apparaissent comme étant bloqués pendant un certain temps. En savoir
+            plus:https://www.ebay.fr/help/selling/getting-paid/getting-paid-items-youve-sold/pending-payments?id=4816
         </LongMessage>
-        <ErrorCode>5</ErrorCode>
+        <ErrorCode>21917236</ErrorCode>
+        <SeverityCode>Warning</SeverityCode>
+        <ErrorParameters ParamID="0">
+            <Value>Il se peut que les fonds provenant de vos ventes ne soient pas disponibles et qu&apos;ils
+                apparaissent comme étant bloqués pendant un certain temps.
+            </Value>
+        </ErrorParameters>
+        <ErrorParameters ParamID="1">
+            <Value>Il se peut que les fonds provenant de vos ventes ne soient pas disponibles et qu&apos;ils
+                apparaissent comme étant bloqués pendant un certain temps. En savoir
+                plus:https://www.ebay.fr/help/selling/getting-paid/getting-paid-items-youve-sold/pending-payments?id=4816
+            </Value>
+        </ErrorParameters>
+        <ErrorParameters ParamID="2">
+            <Value>PayPalHold</Value>
+        </ErrorParameters>
+        <ErrorParameters ParamID="3">
+            <Value>
+                https://www.ebay.fr/help/selling/getting-paid/getting-paid-items-youve-sold/pending-payments?id=4816
+            </Value>
+        </ErrorParameters>
+        <ErrorClassification>RequestError</ErrorClassification>
+    </Errors>
+    <Errors>
+        <ShortMessage>The item specific Jeu is missing.</ShortMessage>
+        <LongMessage>The item specific Jeu is missing. Add Jeu to this listing, enter a valid value, and then try
+            again.
+        </LongMessage>
+        <ErrorCode>21919303</ErrorCode>
         <SeverityCode>Error</SeverityCode>
         <ErrorParameters ParamID="0">
-            <Value>; nested exception is:
-                org.xml.sax.SAXParseException; lineNumber: 35; columnNumber: 30; The entity name must immediately follow
-                the &apos;&amp;&apos; in the entity reference.
+            <Value>The item specific Jeu is missing.</Value>
+        </ErrorParameters>
+        <ErrorParameters ParamID="1">
+            <Value>The item specific Jeu is missing. Add Jeu to this listing, enter a valid value, and then try again.
             </Value>
+        </ErrorParameters>
+        <ErrorParameters ParamID="2">
+            <Value>Jeu</Value>
+        </ErrorParameters>
+        <ErrorClassification>RequestError</ErrorClassification>
+    </Errors>
+    <Errors>
+        <ShortMessage>Your previously selected shipping service has been replaced with another shipping service.
+        </ShortMessage>
+        <LongMessage>Your previously selected shipping service Lettre prioritaire has been replaced with another
+            shipping service Lettre Verte.
+        </LongMessage>
+        <ErrorCode>21916215</ErrorCode>
+        <SeverityCode>Warning</SeverityCode>
+        <ErrorParameters ParamID="0">
+            <Value>Lettre prioritaire</Value>
+        </ErrorParameters>
+        <ErrorParameters ParamID="1">
+            <Value>Lettre Verte</Value>
         </ErrorParameters>
         <ErrorClassification>RequestError</ErrorClassification>
     </Errors>
