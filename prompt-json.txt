@@ -2,86 +2,21 @@ https://chat.openai.com/share/96b60da5-b13a-4c0c-88f7-5fc4c515f591
 
 
 première carte
-images: IMG_2982.jpg, IMG_2983.jpg
-nom: EXAGIDE / AEGISLASH Ex
-numéro: 045/066
-set sv4m
-langue: Japonais
-en condition Near Mint,
+images: IMG_3018.jpg, IMG_3019.jpg
+nom: Kirlia 33/101
+numéro: 33/101
+set EX ile des dragons
+langue: Français
+en condition Lightly Played (Excellent),
 non gradé,
 je veux la vendre en enchère à partir de 1€
-
 
 
 deuxième carte
-images: IMG_2984.jpg, IMG_2985.jpg
-nom: Maushold Ex RR
-numéro: 057/066
-set sv4m Futur Flash
-langue: Japonais
-en condition Near Mint,
-non gradé,
-je veux la vendre en enchère à partir de 1€
-
-
-troisème carte
-images: IMG_2991.jpg, IMG_2998.jpg
-nom: MANGRIFF Rare
-numéro: 23/95
-set Bloc EX Team Aqua VS Team Magma (2005)
-langue: Français
-en condition Moderately Played (Very Good),
-non gradé,
-je veux la vendre en enchère à partir de 1€
-
-
-quatrième carte
-images: IMG_2999.jpg, IMG_3001.jpg
-nom: Remoraid
-numéro: 90/127
-set Platine Base (2009)
-langue: Français
-en condition Lightly Played (Excellent),
-non gradé,
-je veux la vendre en enchère à partir de 1€
-
-
-cinquième carte
-images: IMG_3002.jpg, IMG_3003.jpg
-nom: Tauros
-numéro: 90/127
-set Platine Base (2009)
-langue: Français
-en condition Lightly Played (Excellent),
-non gradé,
-je veux la vendre en enchère à partir de 1€
-
-
-
-
-
-
-
-////////////////
-
-
-première carte
-images: IMG_3006.jpg, IMG_3007.jpg
-nom: Miaouss
-numéro: 106/146
-set Diamant & Perle : Eveil des Légendes
-langue: Français
-en condition Lightly Played (Excellent),
-non gradé,
-je veux la vendre en enchère à partir de 1€
-
-
-
-deuxième carte
-images: IMG_3008.jpg, IMG_3009.jpg
-nom: Zarbi J - DP6
-numéro: 76/146
-set Diamant & Perle : Eveil des Légendes
+images: IMG_3020.jpg, IMG_3021.jpg
+nom: Carapuce
+numéro: 83/112
+set Rouge Feu & Vert Feuille Bloc EX
 langue: Français
 en condition Lightly Played (Excellent),
 non gradé,
@@ -89,32 +24,83 @@ je veux la vendre en enchère à partir de 1€
 
 
 troisième carte
-images: IMG_3010.jpg, IMG_3011.jpg
-nom: Coxy - DP6
-numéro: 104/146
-set Diamant & Perle : Eveil des Légendes
+images: IMG_3028.jpg, IMG_3029.jpg
+nom: KOKIYAS EDITION 1
+numéro: 54/62
+set FOSSILE
 langue: Français
 en condition Lightly Played (Excellent),
 non gradé,
 je veux la vendre en enchère à partir de 1€
 
-quatrième carte
-images: IMG_3012.jpg, IMG_3013.jpg
-nom: Terhal
-numéro: 84/146
-set Diamant & Perle : Eveil des Légendes
+quatirème carte
+images: IMG_3030.jpg, IMG_3031.jpg
+nom: ORTIDE EDITION 1
+numéro: 37/64
+set Jungle Wizard
 langue: Français
-en condition Lightly Played (Excellent),
+en condition Heavily Played (Poor),
 non gradé,
 je veux la vendre en enchère à partir de 1€
-
 
 cinquième carte
-images: IMG_3016.jpg, IMG_3017.jpg
-nom: Yanma - DP6
-numéro: 128/146
-set Diamant & Perle : Eveil des Légendes
+images: IMG_3032.jpg, IMG_3033.jpg
+nom: LEUPHORIE
+numéro: 6/147
+set AQUAPOLIS Wizards
+langue: Français
+en condition Heavily Played (Poor),
+non gradé,
+je veux la vendre en enchère à partir de 1€
+
+
+sixième carte
+images: IMG_3038.jpg, IMG_3039.jpg
+nom: ENERGIE ELECTRIQUE
+numéro: 100/102
+set Set de Base Wizards
+langue: Français
+en condition Heavily Played (Poor),
+non gradé,
+je veux la vendre en enchère à partir de 1€
+
+septieme carte
+images: IMG_3040.jpg, IMG_3041.jpg
+nom: Goupix
+numéro: 68/102
+set Set de Base Wizards
 langue: Français
 en condition Lightly Played (Excellent),
+non gradé,
+je veux la vendre en enchère à partir de 1€
+
+
+huitième carte
+images: IMG_3042.jpg, IMG_3043.jpg
+nom: Rattata
+numéro: 61/102
+set Set de Base Wizards
+langue: Français
+en condition Lightly Played (Excellent),
+non gradé,
+je veux la vendre en enchère à partir de 1€
+
+neuvième carte
+images: IMG_3044.jpg, IMG_3045.jpg
+nom: Pikachu
+numéro: 58/102
+set Set de Base Wizards
+langue: Français
+en condition Heavily Played (Poor),
+non gradé,
+je veux la vendre en enchère à partir de 1€
+
+dixième carte
+images: IMG_3046.jpg, IMG_3047.jpg
+nom: Roucool
+numéro: 57/102
+set Set de Base Wizards
+langue: Français
+en condition Heavily Played (Poor),
 non gradé,
 je veux la vendre en enchère à partir de 1€

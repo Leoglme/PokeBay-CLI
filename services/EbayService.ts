@@ -128,8 +128,7 @@ export default class EbayService {
 
     public static async findItemDetails(itemId: string): Promise<EbayItemDetailResponse | undefined> {
         if (!this.EBAY_OAUTH_TOKEN) {
-            console.error('Failed to obtain OAuth Token');
-            return undefined;
+            await this.setOAuthToken();
         }
 
         const url: string = `https://api.ebay.com/buy/browse/v1/item/v1|${itemId}|0?fieldgroups=ADDITIONAL_SELLER_DETAILS`;

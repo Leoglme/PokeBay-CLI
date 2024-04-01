@@ -94,6 +94,49 @@ type Card = {
 
 To facilitate creating the `items.json` file, use [this GPT prompt link](https://chat.openai.com/share/96b60da5-b13a-4c0c-88f7-5fc4c515f591). Provide details about your items, and ChatGPT will help structure your JSON file.
 
+Pour ajouter une explication sur votre nouvelle commande `npm run generateJson` dans le README de votre projet PokeBay-CLI, vous pourriez insérer une nouvelle section sous **Usage**, détaillant la fonction de cette commande et comment l'utiliser. Voici une suggestion de formulation pour cette addition :
+
+---
+
+### Generating `items.json` Automatically
+
+In addition to manually creating `items.json` or using ChatGPT to build it, PokeBay-CLI now supports automatic generation of this file using a new command:
+
+```bash
+npm run generateJson
+```
+
+This command simplifies the process of listing Pokémon items on eBay by automatically filling in the necessary item information based on a set of predefined keywords.
+
+### How It Works
+
+1. **Prepare a `baseInfos` Array**: First, define a `baseInfos` array in the `generateJson.ts` script. Each element of this array should include a `keyword` for searching eBay and an array of `images` for the item.
+
+   Example:
+    ```typescript
+    const baseInfos: BaseInfo[] = [
+        {
+            keyword: '55/102',
+            images: ['IMG_3018.jpg', 'IMG_3019.jpg']
+        }
+    ];
+    ```
+
+2. **Run the Command**: Execute the command in your terminal:
+    ```bash
+    npm run generateJson
+    ```
+   This will search eBay for items matching each keyword, fetch details, and generate an `items.json` file at the project root, filled with the structured data for your listings.
+
+#### Requirements
+
+Before running the command, ensure you have:
+
+- Configured your `.env` file with the necessary eBay and imgbb API credentials.
+- Placed the images for your items in the `images` directory as specified in your `baseInfos` array.
+
+This feature aims to streamline the setup process, making it quicker and easier to start listing your Pokémon items on eBay.
+
 ### Running the Script
 
 To start listing your Pokémon items on eBay, run:

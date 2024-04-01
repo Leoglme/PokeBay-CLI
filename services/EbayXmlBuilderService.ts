@@ -145,6 +145,18 @@ export default class EbayXmlBuilderService {
         };
     }
 
+    public static formatCardSpecifics(cardSpecifics: EbayLocalizedAspect[]): EbayLocalizedAspect[] {
+        return cardSpecifics.map((specific: EbayLocalizedAspect) => {
+            const formattedName = this.replaceSpecialXmlCharacters(specific.name);
+            const formattedValue = this.replaceSpecialXmlCharacters(specific.value);
+            return {
+                type: specific.type,
+                name: formattedName,
+                value: formattedValue,
+            };
+        });
+    }
+
 
     public static async buildAddItemXML(card: Card): Promise<string> {
         const formattedCard: Card = this.formattedCard(card);
@@ -157,7 +169,7 @@ export default class EbayXmlBuilderService {
         let itemSpecificsXML: string = '';
 
         if (cardSpecifics) {
-            itemSpecificsXML = this.buildItemSpecificsXML(cardSpecifics);
+            itemSpecificsXML = this.buildItemSpecificsXML(this.formatCardSpecifics(cardSpecifics));
         }
 
         const descriptionXML: string = this.buildDescriptionXML(formattedCard);

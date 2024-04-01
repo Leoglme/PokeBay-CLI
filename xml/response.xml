@@ -1,61 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <AddItemResponse xmlns="urn:ebay:apis:eBLBaseComponents">
-    <Timestamp>2024-03-31T21:58:44.481Z</Timestamp>
+    <Timestamp>2024-04-01T00:16:54.935Z</Timestamp>
     <Ack>Failure</Ack>
     <Errors>
-        <ShortMessage>Il se peut que les fonds provenant de vos ventes ne soient pas disponibles et qu&apos;ils
-            apparaissent comme étant bloqués pendant un certain temps.
-        </ShortMessage>
-        <LongMessage>Il se peut que les fonds provenant de vos ventes ne soient pas disponibles et qu&apos;ils
-            apparaissent comme étant bloqués pendant un certain temps. En savoir
-            plus:https://www.ebay.fr/help/selling/getting-paid/getting-paid-items-youve-sold/pending-payments?id=4816
+        <ShortMessage>Erreur d&apos;analyse XML.</ShortMessage>
+        <LongMessage>Texte d&apos;erreur XML : &quot;; nested exception is:
+            org.xml.sax.SAXParseException; lineNumber: 35; columnNumber: 30; The entity name must immediately follow the
+            &apos;&amp;&apos; in the entity reference.&quot;.
         </LongMessage>
-        <ErrorCode>21917236</ErrorCode>
-        <SeverityCode>Warning</SeverityCode>
-        <ErrorParameters ParamID="0">
-            <Value>Il se peut que les fonds provenant de vos ventes ne soient pas disponibles et qu&apos;ils
-                apparaissent comme étant bloqués pendant un certain temps.
-            </Value>
-        </ErrorParameters>
-        <ErrorParameters ParamID="1">
-            <Value>Il se peut que les fonds provenant de vos ventes ne soient pas disponibles et qu&apos;ils
-                apparaissent comme étant bloqués pendant un certain temps. En savoir
-                plus:https://www.ebay.fr/help/selling/getting-paid/getting-paid-items-youve-sold/pending-payments?id=4816
-            </Value>
-        </ErrorParameters>
-        <ErrorParameters ParamID="2">
-            <Value>PayPalHold</Value>
-        </ErrorParameters>
-        <ErrorParameters ParamID="3">
-            <Value>
-                https://www.ebay.fr/help/selling/getting-paid/getting-paid-items-youve-sold/pending-payments?id=4816
-            </Value>
-        </ErrorParameters>
-        <ErrorClassification>RequestError</ErrorClassification>
-    </Errors>
-    <Errors>
-        <ShortMessage>Title too long.</ShortMessage>
-        <LongMessage>Listing titles are limited to &quot;80&quot; characters.</LongMessage>
-        <ErrorCode>70</ErrorCode>
+        <ErrorCode>5</ErrorCode>
         <SeverityCode>Error</SeverityCode>
         <ErrorParameters ParamID="0">
-            <Value>80</Value>
-        </ErrorParameters>
-        <ErrorClassification>RequestError</ErrorClassification>
-    </Errors>
-    <Errors>
-        <ShortMessage>Your previously selected shipping service has been replaced with another shipping service.
-        </ShortMessage>
-        <LongMessage>Your previously selected shipping service Lettre prioritaire has been replaced with another
-            shipping service Lettre Verte.
-        </LongMessage>
-        <ErrorCode>21916215</ErrorCode>
-        <SeverityCode>Warning</SeverityCode>
-        <ErrorParameters ParamID="0">
-            <Value>Lettre prioritaire</Value>
-        </ErrorParameters>
-        <ErrorParameters ParamID="1">
-            <Value>Lettre Verte</Value>
+            <Value>; nested exception is:
+                org.xml.sax.SAXParseException; lineNumber: 35; columnNumber: 30; The entity name must immediately follow
+                the &apos;&amp;&apos; in the entity reference.
+            </Value>
         </ErrorParameters>
         <ErrorClassification>RequestError</ErrorClassification>
     </Errors>

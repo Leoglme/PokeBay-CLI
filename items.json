@@ -1,67 +1,80 @@
 [
   {
-    "name": "Miaouss",
-    "number": "106/146",
-    "set": "Diamant &amp; Perle : Eveil des Légendes",
-    "language": "Français",
     "images": [
-      "IMG_3006.jpg",
-      "IMG_3007.jpg"
+      "IMG_3036.jpg",
+      "IMG_3037.jpg"
     ],
+    "name": "LEUPHORIE",
+    "number": "6/147",
+    "set": "AQUAPOLIS Wizards",
+    "language": "Français",
+    "condition": "Heavily Played (Poor)",
     "isGraded": false,
-    "condition": "Lightly Played (Excellent)",
     "startPrice": 1
   },
   {
-    "name": "Zarbi J - DP6",
-    "number": "76/146",
-    "set": "Diamant &amp; Perle : Eveil des Légendes",
-    "language": "Français",
     "images": [
-      "IMG_3008.jpg",
-      "IMG_3009.jpg"
+      "IMG_3038.jpg",
+      "IMG_3039.jpg"
     ],
+    "name": "ENERGIE ELECTRIQUE",
+    "number": "100/102",
+    "set": "Set de Base Wizards",
+    "language": "Français",
+    "condition": "Heavily Played (Poor)",
     "isGraded": false,
-    "condition": "Lightly Played (Excellent)",
     "startPrice": 1
   },
   {
-    "name": "Coxy - DP6",
-    "number": "104/146",
-    "set": "Diamant &amp; Perle : Eveil des Légendes",
-    "language": "Français",
     "images": [
-      "IMG_3010.jpg",
-      "IMG_3011.jpg"
+      "IMG_3040.jpg",
+      "IMG_3041.jpg"
     ],
-    "isGraded": false,
+    "name": "Goupix",
+    "number": "68/102",
+    "set": "Set de Base Wizards",
+    "language": "Français",
     "condition": "Lightly Played (Excellent)",
+    "isGraded": false,
     "startPrice": 1
   },
   {
-    "name": "Terhal",
-    "number": "84/146",
-    "set": "Diamant &amp; Perle : Eveil des Légendes",
-    "language": "Français",
     "images": [
-      "IMG_3012.jpg",
-      "IMG_3013.jpg"
+      "IMG_3042.jpg",
+      "IMG_3043.jpg"
     ],
-    "isGraded": false,
+    "name": "Rattata",
+    "number": "61/102",
+    "set": "Set de Base Wizards",
+    "language": "Français",
     "condition": "Lightly Played (Excellent)",
+    "isGraded": false,
     "startPrice": 1
   },
   {
-    "name": "Yanma - DP6",
-    "number": "128/146",
-    "set": "Diamant & Perle : Eveil des Légendes",
-    "language": "Français",
     "images": [
-      "IMG_3016.jpg",
-      "IMG_3017.jpg"
+      "IMG_3044.jpg",
+      "IMG_3045.jpg"
     ],
+    "name": "Pikachu",
+    "number": "58/102",
+    "set": "Set de Base Wizards",
+    "language": "Français",
+    "condition": "Heavily Played (Poor)",
     "isGraded": false,
-    "condition": "Lightly Played (Excellent)",
+    "startPrice": 1
+  },
+  {
+    "images": [
+      "IMG_3046.jpg",
+      "IMG_3047.jpg"
+    ],
+    "name": "Roucool",
+    "number": "57/102",
+    "set": "Set de Base Wizards",
+    "language": "Français",
+    "condition": "Heavily Played (Poor)",
+    "isGraded": false,
     "startPrice": 1
   }
 ]
