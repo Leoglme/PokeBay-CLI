@@ -94,8 +94,6 @@ type Card = {
 
 To facilitate creating the `items.json` file, use [this GPT prompt link](https://chat.openai.com/share/96b60da5-b13a-4c0c-88f7-5fc4c515f591). Provide details about your items, and ChatGPT will help structure your JSON file.
 
-Pour ajouter une explication sur votre nouvelle commande `npm run generateJson` dans le README de votre projet PokeBay-CLI, vous pourriez insérer une nouvelle section sous **Usage**, détaillant la fonction de cette commande et comment l'utiliser. Voici une suggestion de formulation pour cette addition :
-
 ---
 
 ### Generating `items.json` Automatically
@@ -132,7 +130,6 @@ This command simplifies the process of listing Pokémon items on eBay by automat
 
 Before running the command, ensure you have:
 
-- Configured your `.env` file with the necessary eBay and imgbb API credentials.
 - Placed the images for your items in the `images` directory as specified in your `baseInfos` array.
 
 This feature aims to streamline the setup process, making it quicker and easier to start listing your Pokémon items on eBay.
